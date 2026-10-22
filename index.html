@@ -111,7 +111,7 @@ footer{background:#040b13;border-top-color:#dfbd7826}.foot-main{padding-bottom:3
 <script type="module">
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
 const SUPABASE_URL='https://ifzygnxecojzsghkvkir.supabase.co';
-const SUPABASE_ANON_KEY='PASTE_YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY';
+const SUPABASE_ANON_KEY='sb_publishable_a0cH9oqAvXSd694NSoL5qw_CtktJt5d';
 const configured=SUPABASE_URL.startsWith('https://')&&!SUPABASE_URL.includes('PASTE_')&&!SUPABASE_ANON_KEY.includes('PASTE_');
 const client=configured?createClient(SUPABASE_URL,SUPABASE_ANON_KEY):null;
 const $=id=>document.getElementById(id);$('year').textContent=new Date().getFullYear();
